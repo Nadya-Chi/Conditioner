@@ -8,22 +8,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class ConditionerTest {
 
-//    @Test
-//    public void shouldGetAndSet() {
-//        Conditioner conditioner = new Conditioner();
-//        String expected = "Валли";
-//        assertNull(conditioner.getName());
-//        conditioner.setName(expected);
-//        assertEquals(expected, conditioner.getName());
-//    }
-//
-//    @Test
-//    public void checkTemperature() {
-//        Conditioner conditioner = new Conditioner();
-//        assertEquals(0, conditioner.getCurrentTemperature());
-//        conditioner.setCurrentTemperature(0);
-//        assertEquals(0, conditioner.getCurrentTemperature());
-//    }
     @Test
     public void maxTemperature() {
         Conditioner conditioner = new Conditioner();
